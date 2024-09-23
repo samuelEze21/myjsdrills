@@ -8,7 +8,7 @@ const counterObj = {
 function logcounterIncrement(counterobj) {
 	for (let key in counterObj) { 
 		if (counterObj.hasOwnProperty(key)) {
-			value = counterObj[count];
+			value = counterObj[key];
         		console.log(key, value+1);
 		}
 	}
